@@ -1,8 +1,55 @@
-*{
-  margin: 0;
-  padding: 0;
-  font-family: 'Popping', sans-serif;
-  box-sizing: border-box;
+=======
+
+* {
+  margin: 0px;
+  padding: 0px;
+   font-family: 'Popping', sans-serif;
+    box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+
+header {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(./images/image1.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.ticketform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sec1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+}
+.sec1 img {
+  max-width: 85%;
+  max-height: 15%;
+  float: left;
+}
+.sec1 h1 {
+  color: brown;
+}
+.sec1 ul {
+  list-style: square;
+  color: rgb(7, 29, 68);
+  margin: 25px;
+  font-size: 20px;
+}
+.sec ul li {
+  padding: 5px;
+  margin-left: 35px;
 }
 .footer{
   margin-top: 150px;
@@ -57,3 +104,4 @@ font-size: 22px;
 margin: 10px;
 cursor: pointer;
 }
+
