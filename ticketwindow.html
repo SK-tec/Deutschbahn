@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket_window</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            
+             <img src="https://assets.static-bahn.de/dam/jcr:47b6ca20-95d9-4102-bc5a-6ebb5634f009/db-logo.svg" width="50px" height="50px" alt=""/>
+            <li><a href="index.html">Home</a></li>
+            <li> <a href="ticketwindow.html">Book Ticket</a></li>
+            <li><a href="">Help</a></li>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="Language">Language:</a>
+
+            <select   id="Language">
+                <option value="English">English</option>
+                <option value="Deutsch">Deutsch</option>
+                <option value="French">French</option>
+                <option value="Spanish">Spanish</option>
+            </select></li>
+        </ul>
+    </nav>
+    <div class="box">
+    <form action="">
+        <label for="From">From:</label>
+        <input type="text" id="From" name="From">
+        <a> =></a>
+        <label for="To">To:</label>
+        <input type="text" id="To" name="To"><br><br>
+        <label for="Departure">Departure:</label>
+        <input type="Date" id="Departure" name="Departure">
+        
+        <label for="Arrival">Arrival:</label>
+        <input type="Date" id="Arrival" name="Arrival"><br><br>
+        <button type="button" id="search">Search</button>
+      </form>
+    </div>
+</body>
+</html>

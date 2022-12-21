@@ -8,6 +8,8 @@
 }
 body {
   background-color: white;
+  padding:0;
+  margin: 0; 
 }
 
 header {
@@ -53,7 +55,7 @@ header {
 }
 .footer{
   margin-top: 150px;
-  width: 100%;
+  width: 70%;
   padding: 100px 15%;
   background: #05315C;
   color: #efefef;
@@ -104,4 +106,122 @@ font-size: 22px;
 margin: 10px;
 cursor: pointer;
 }
+#From{
+  height: 70%;
+  width: 30%;
+}
+#To{
+  height: 70%;
+  width: 30%;
+}
+#Departure{
+  height: 70%;
+  width: 30%;
+}
+#Arrival{
+  height: 70%;
+  width: 30%;
+}
+nav ul{
+  height: 100px;
+  width: 99%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#05315C;
+  list-style: none;
+  padding: 10px;
+  
+  margin: 0;
+  
+}
 
+nav ul a{
+
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  
+}
+nav ul a:hover{
+  color: slategray;
+  transition: 0.3s;
+}
+#Language{
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+}
+.Loginbox{
+  box-sizing:border-box;
+  font-size: 15px;
+  color: black;
+  height: 25%;
+  width: 40%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: rgb(229, 140, 131);
+  list-style: none;
+  padding:2em;
+  margin-top:5em; 
+  margin-left:20em;
+}
+#name{
+  font-size: 18px;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content:flex-start;
+}
+#Password{
+  font-size: 18px;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content:flex-start;
+}
+.box {
+  box-sizing:border-box;
+  font-size: 18px;
+  width: 45%;
+  height: 50%;
+border: black 2px solid;
+border-bottom:  slategray 5px solid;
+border-right:  slategray 5px solid;
+
+  margin: 5em;
+  margin-left: 15em;
+  padding: 2em;
+  background-color: rgb(206, 220, 235);
+}
+#search{
+  box-sizing: border-box; 
+  background-color:blueviolet;
+  color:beige;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: flex-end;
+  
+  font-size: 15px;
+}
+#search:hover{
+  color: rgb(48, 50, 51);
+  transition: 0.3s;
+  
+}
+#button{
+  box-sizing: border-box;
+  background-color:blueviolet;
+  color:beige;
+  padding: 6px 100px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 25px;
+}
+
+#button:hover{
+  color: rgb(48, 50, 51);
+  transition: 0.3s;
+}
